@@ -16,21 +16,9 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toEndOf="@+id/txtPassword"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/txtPassword"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <EditText
-        android:id="@+id/txtPassword"
-        android:layout_width="355dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="87dp"
-        android:ems="10"
-        android:hint="@string/password_hint"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/iniciarSesion"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
     <Button
         android:id="@+id/iniciarSesion"
@@ -43,8 +31,22 @@
         android:text="@string/btnLogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="355dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="87dp"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/iniciarSesion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
     <TextView
         android:id="@+id/textView5"
