@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/txtUser"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:ems="10"
         android:hint="@string/username_hint"
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/iniciarSesion"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="33dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="294dp"
@@ -37,8 +37,8 @@
 
     <EditText
         android:id="@+id/txtPassword"
-        android:layout_width="355dp"
-        android:layout_height="0dp"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginBottom="87dp"
         android:ems="10"
@@ -51,7 +51,7 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="133dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="129dp"
         android:layout_marginTop="45dp"
         android:layout_marginBottom="39dp"
