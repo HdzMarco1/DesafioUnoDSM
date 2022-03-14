@@ -61,8 +61,8 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void irPagoLiquido(){
-//        Intent i = new Intent(this, ConteoVotosActivity.class);
-//        startActivity(i);
+        Intent i = new Intent(this, pagoLiquido.class);
+        startActivity(i);
     }
 
     private void logOut(){

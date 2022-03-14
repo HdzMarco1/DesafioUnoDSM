@@ -9,17 +9,8 @@
     <string name="imgViewDescription">Imagen ecuacion cuadratica</string>
     <string name="detalle">Detalle</string>
     <string name="textview">TextView</string>
-    <string name="nombre">Nombre:</string>
-    <string name="mes">Mes:</string>
-    <string name="ventas">Ventas</string>
-    <string name="ventass">Ventas:</string>
-    <string name="porcentaje">Porcentaje:</string>
-    <string name="comision">Comision</string>
     <string name="salir">Salir</string>
-    <string name="codigo">Codigo:</string>
-    <string name="total">Total:</string>
     <string name="zero">0.0</string>
-    <string name="user"></string>
     <string name="password_hint">********</string>
     <string name="username_hint">usuario</string>
     <string name="btnLogin">Iniciar Sesion</string>
